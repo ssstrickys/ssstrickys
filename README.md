@@ -96,6 +96,33 @@
 
 ---
 
+## `//DISCLOSURES` &nbsp;—&nbsp; COORDINATED VULNERABILITY DISCLOSURE
+
+<div align="center">
+
+<img alt="Five GitHub Security Advisories published" src="https://img.shields.io/badge/GHSA_ADVISORIES-5_PUBLISHED-8b0000?style=for-the-badge&labelColor=0d1117" />
+&nbsp;
+<img alt="Disclosure coordinated and fixed" src="https://img.shields.io/badge/DISCLOSURE-COORDINATED_%2F%2F_FIXED-0d1117?style=for-the-badge&labelColor=8b0000" />
+
+</div>
+
+> Vulnerabilities reported under published disclosure programs, coordinated with
+> maintainers, and tracked to fix. Full write-ups &rarr; **[ssstrickys.com/research](https://www.ssstrickys.com/research)**
+
+**Target:** [`koala73/worldmonitor`](https://github.com/koala73/worldmonitor) &nbsp;·&nbsp; Tauri&nbsp;2 / Rust / TypeScript &nbsp;·&nbsp; real-time global intelligence platform
+
+| Severity | CVSS | Advisory | Class |
+|:---|:---:|:---|:---|
+| 🔴 High | 8.8 | [GHSA-2x6r-qq54-mmhr](https://github.com/koala73/worldmonitor/security/advisories/GHSA-2x6r-qq54-mmhr) | CWE-78 · Windows command injection (Tauri `open_url` IPC) |
+| 🔴 High | 7.5 | [GHSA-r649-4cqj-w93h](https://github.com/koala73/worldmonitor/security/advisories/GHSA-r649-4cqj-w93h) | CWE-306/639 · Unauthenticated cross-tenant read (BOLA) |
+| 🟠 Moderate | 5.3 | [GHSA-c267-988w-7pq7](https://github.com/koala73/worldmonitor/security/advisories/GHSA-c267-988w-7pq7) | CWE-290/807 · Rate-limit bypass via spoofable IP header |
+| 🟠 Moderate | 4.3 | [GHSA-hcq5-jm84-2395](https://github.com/koala73/worldmonitor/security/advisories/GHSA-hcq5-jm84-2395) | CWE-770 · MCP daily cost-cap bypass |
+| ⚪ Low | 2.7 | [GHSA-f6gj-3v7v-j75q](https://github.com/koala73/worldmonitor/security/advisories/GHSA-f6gj-3v7v-j75q) | CWE-613 · OAuth refresh-token reuse without family revocation |
+
+<sub>Also credited in the project's [Security Acknowledgments](https://github.com/koala73/worldmonitor#security-acknowledgments) and [PR #1103](https://github.com/koala73/worldmonitor/pull/1103) (cache-key hardening).</sub>
+
+---
+
 ## `//SIGNAL INTELLIGENCE` &nbsp;—&nbsp; OPERATIONAL TELEMETRY
 
 <div align="center">
